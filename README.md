@@ -6,11 +6,20 @@ This project delves into the analysis of direct marketing campaigns conducted by
 ## Dataset
 The dataset consists of :
 
-
 The dataset encompasses various features related to client demographics, previous campaign interactions, economic indicators, and social factors.
 
 ## Classification Goal
 The primary classification goal is to predict whether a client will subscribe (`yes` or `no`) to a term deposit (variable `y`). This binary classification task involves employing machine learning algorithms to train predictive models based on historical campaign data.
+
+## Data Analysis
+Exploratory Data Analysis (EDA): Conducted comprehensive EDA to understand the distribution of features, identify outliers, and explore relationships between variables.
+ <!--- Insert a visualization showcasing exploratory data analysis techniques --->
+
+Feature Engineering: Engineered new features and transformed existing ones to enhance predictive power and model performance.
+ <!--- Insert an image/gif depicting feature engineering process --->
+
+Insights Generation: Extracted actionable insights from the data to inform marketing strategies and campaign optimization.
+ <!--- Insert a visualization summarizing key insights from the data analysis process --->
 
 ## Conclusion
 - **Predictive Performance**: Utilized cutting-edge machine learning methodologies, including **oversampling with SMOTE** and **hyperparameter tuning via GridsearchCV**, to develop a highly **accurate** predictive model. Achieved an impressive **89% accuracy** using the KNeighbours classifier.
@@ -19,7 +28,7 @@ The primary classification goal is to predict whether a client will subscribe (`
 
 ## Technologies Used
 - **Python Libraries**: Leveraged Pandas for data manipulation, Scikit-learn for machine learning modeling, and Matplotlib along with Seaborn for data visualization.
-- **Jupyter Notebooks**: Provided detailed analysis and implementation steps in Jupyter notebooks available in the `notebooks` directory.
+- **Google Colab**: Utilized Google Colab for collaborative development and execution of `Jupyter notebooks`.
 
 ## Getting Started
 To get started with this project:
@@ -33,7 +42,7 @@ To get started with this project:
    ```
    pip install -r requirements.txt
    ```
-4. **Explore Notebooks**: Explore the Jupyter notebook provided in the repository to understand the data analysis and machine learning model implementation.
+4. **Explore Notebooks**: Explore the colab notebook provided in the repository to understand the data analysis and machine learning model implementation.
 
 ## License
 This project is licensed under the [MIT License](LICENSE), allowing for modification and distribution under certain conditions.
