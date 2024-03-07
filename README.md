@@ -24,9 +24,11 @@ Insights Generation: Extracted actionable insights from the data to inform marke
  <!--- Insert a visualization summarizing key insights from the data analysis process --->
 
 ## Conclusion
+ **Predictive Performance**: Applied **oversampling with SMOTE** to address the dataset's class imbalance. Additionally, explored four different machine learning models including **K-Nearest Neighbors (KNN)**, **Support Vector Machine (SVM)**, **Random Forest**, and **Logistic Regression**. Utilizing hyperparameter tuning via GridsearchCV, And optimized the parameters for each model.
+ 
 ![Performance](images/Performance.png)
-- **Predictive Performance**: Utilized cutting-edge machine learning methodologies, including **oversampling with SMOTE** and **hyperparameter tuning via GridsearchCV**, to develop a highly **accurate** predictive model. Achieved an impressive **89% accuracy** using the KNeighbours classifier.
-- **Data Analysis**: Conducted comprehensive analysis of **complex** financial data to identify key predictors influencing client subscription decisions. This analysis involved exploring relationships between various features and the target variable, as well as detecting patterns and trends.
+- **Evaluation of Model Performance**: Random Forest exhibited superior performance with notably **higher precision** and **recall** compared to other models, showcasing its effectiveness in identifying **positive instances**. Accuracy may not be a reliable metric due to the dataset's imbalance, emphasizing the importance of prioritizing precision and recall for this task.
+
 - **Strategic Insights**: Generated strategic insights to optimize future marketing efforts. These insights include identifying target demographics with a high propensity to subscribe to term deposits, refining communication strategies, and allocating resources effectively.
 
 ## Technologies Used
