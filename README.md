@@ -24,6 +24,7 @@ Insights Generation: Extracted actionable insights from the data to inform marke
  <!--- Insert a visualization summarizing key insights from the data analysis process --->
 
 ## Conclusion
+![Performance](images/Performance.png)
 - **Predictive Performance**: Utilized cutting-edge machine learning methodologies, including **oversampling with SMOTE** and **hyperparameter tuning via GridsearchCV**, to develop a highly **accurate** predictive model. Achieved an impressive **89% accuracy** using the KNeighbours classifier.
 - **Data Analysis**: Conducted comprehensive analysis of **complex** financial data to identify key predictors influencing client subscription decisions. This analysis involved exploring relationships between various features and the target variable, as well as detecting patterns and trends.
 - **Strategic Insights**: Generated strategic insights to optimize future marketing efforts. These insights include identifying target demographics with a high propensity to subscribe to term deposits, refining communication strategies, and allocating resources effectively.
@@ -31,7 +32,6 @@ Insights Generation: Extracted actionable insights from the data to inform marke
 ## Technologies Used
 - **Python Libraries**: Leveraged Pandas for data manipulation, Scikit-learn for machine learning modeling, and Matplotlib along with Seaborn for data visualization.
 - **Google Colab**: Utilized Google Colab for collaborative development and execution of `Jupyter notebooks`.
-- ![Technologies GIF](images/ML.gif)
 
  
 ## Getting Started
