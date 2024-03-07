@@ -32,8 +32,8 @@ Insights Generation: Extracted actionable insights from the data to inform marke
 - **Python Libraries**: Leveraged Pandas for data manipulation, Scikit-learn for machine learning modeling, and Matplotlib along with Seaborn for data visualization.
 - **Google Colab**: Utilized Google Colab for collaborative development and execution of `Jupyter notebooks`.
 - ![Technologies GIF](images/ML.gif)
-- <img src="images/ML.gif" alt="Technologies GIF" width="10" height="3">
 
+ 
 ## Getting Started
 To get started with this project:
 
