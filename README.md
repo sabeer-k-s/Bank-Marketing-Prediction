@@ -1,6 +1,7 @@
 # Bank Marketing Prediction
 
 ## Overview
+![Project Overview](images/Project_Overview.jpg)
 This project delves into the analysis of direct marketing campaigns conducted by a Portuguese banking institution. The main objective is to predict whether clients will subscribe to a term deposit based on various features collected during the campaigns. Through thorough analysis and machine learning techniques, we aim to provide insights into the factors influencing client decisions and optimize future marketing strategies.
 
 ## Dataset
