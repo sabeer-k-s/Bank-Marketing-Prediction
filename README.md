@@ -2,12 +2,13 @@
 
 ## Overview
 ![Project Overview](images/Project_Overview.jpg)
-This project delves into the analysis of direct marketing campaigns conducted by a Portuguese banking institution. The main objective is to predict whether clients will subscribe to a term deposit based on various features collected during the campaigns. Through thorough analysis and machine learning techniques, we aim to provide insights into the factors influencing client decisions and optimize future marketing strategies.
+This project delves into the analysis of direct marketing campaigns conducted by a Portuguese banking institution. The main objective is to **predict whether clients will subscribe to a term deposit based on various features collected during the campaigns**. Through thorough analysis and machine learning techniques, we aim to provide insights into the factors influencing client decisions and optimize future marketing strategies.
 
 ## Dataset
 The dataset consists of :
+age, job, marital, education, default, balance, housing, loan, contact, day, month, duration, campaign, pdays, previous, poutcome, Target(y)
 
-The dataset encompasses various features related to client demographics, previous campaign interactions, economic indicators, and social factors.
+This dataset encompasses various features related to client demographics, previous campaign interactions, economic indicators, and social factors.
 
 ## Classification Goal
 The primary classification goal is to predict whether a client will subscribe (`yes` or `no`) to a term deposit (variable `y`). This binary classification task involves employing machine learning algorithms to train predictive models based on historical campaign data.
@@ -30,6 +31,8 @@ Insights Generation: Extracted actionable insights from the data to inform marke
 ## Technologies Used
 - **Python Libraries**: Leveraged Pandas for data manipulation, Scikit-learn for machine learning modeling, and Matplotlib along with Seaborn for data visualization.
 - **Google Colab**: Utilized Google Colab for collaborative development and execution of `Jupyter notebooks`.
+- ![Technologies GIF](images/ML.gif)
+- <img src="images/ML.gif" alt="Technologies GIF" width="10" height="3">
 
 ## Getting Started
 To get started with this project:
