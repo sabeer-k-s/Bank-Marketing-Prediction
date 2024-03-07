@@ -12,10 +12,13 @@ This dataset encompasses various features related to client demographics, previo
 
 ## Classification Goal
 The primary classification goal is to predict whether a client will subscribe (`yes` or `no`) to a term deposit (variable `y`). This binary classification task involves employing machine learning algorithms to train predictive models based on historical campaign data.
+![target variable](images/target_variable.png)
 
 ## Data Analysis
 Exploratory Data Analysis (EDA): Conducted comprehensive EDA to understand the distribution of features, identify outliers, and explore relationships between variables.
- <!--- Insert a visualization showcasing exploratory data analysis techniques --->
+
+![Correlation](images/correlation.png)
+![distribution](images/distribution.png)
 
 Feature Engineering: Engineered new features and transformed existing ones to enhance predictive power and model performance.
  <!--- Insert an image/gif depicting feature engineering process --->
