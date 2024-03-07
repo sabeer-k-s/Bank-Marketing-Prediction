@@ -15,19 +15,17 @@ The primary classification goal is to predict whether a client will subscribe (`
 ![target variable](images/target_variable.png)
 
 ## Data Analysis
-Exploratory Data Analysis (EDA): Conducted comprehensive EDA to understand the distribution of features, identify outliers, and explore relationships between variables.
+**Exploratory Data Analysis (EDA)**: Conducted comprehensive EDA to understand the distribution of features, identify outliers, and explore relationships between variables.
 
 ![Correlation](images/correlation.png)
 ![distribution](images/distribution.png)
 
-Feature Engineering: Engineered new features and transformed existing ones to enhance predictive power and model performance.
- <!--- Insert an image/gif depicting feature engineering process --->
+**Feature Engineering**: Engineered new features and transformed existing ones to enhance predictive power and model performance.Applied **oversampling with SMOTE** to address the dataset's class imbalance. 
 
-Insights Generation: Extracted actionable insights from the data to inform marketing strategies and campaign optimization.
- <!--- Insert a visualization summarizing key insights from the data analysis process --->
+![smote](images/smote.png)
 
 ## Conclusion
- **Predictive Performance**: Applied **oversampling with SMOTE** to address the dataset's class imbalance. Additionally, explored four different machine learning models including **K-Nearest Neighbors (KNN)**, **Support Vector Machine (SVM)**, **Random Forest**, and **Logistic Regression**. Utilizing hyperparameter tuning via GridsearchCV, And optimized the parameters for each model.
+ **Predictive Performance**: Explored four different machine learning models including **K-Nearest Neighbors (KNN)**, **Support Vector Machine (SVM)**, **Random Forest**, and **Logistic Regression**. Utilizing hyperparameter tuning via GridsearchCV, And optimized the parameters for each model.
  
 ![Performance](images/Performance.png)
 - **Evaluation of Model Performance**: Random Forest exhibited superior performance with notably **higher precision** and **recall** compared to other models, showcasing its effectiveness in identifying **positive instances**. Accuracy may not be a reliable metric due to the dataset's imbalance, emphasizing the importance of prioritizing precision and recall for this task.
