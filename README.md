@@ -12,6 +12,7 @@ This dataset encompasses various features related to client demographics, previo
 
 ## Classification Goal
 The primary classification goal is to predict whether a client will subscribe (`yes` or `no`) to a term deposit (variable `y`). This binary classification task involves employing machine learning algorithms to train predictive models based on historical campaign data.
+
 ![target variable](images/target_variable.png)
 
 ## Data Analysis
